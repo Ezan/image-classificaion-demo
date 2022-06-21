@@ -18,5 +18,5 @@ plt.imshow(img_resized)
 model = getModel()
 y_out = model.predict(flat_data)
 y_out = CATEGORIES[y_out[0]]
-plt.show()
 print(f' PREDICTED OUTPUT: {y_out}')
+# plt.show()
